@@ -1,23 +1,26 @@
 {
-  "name": "newsfeed-api",
+  "name": "just-tech-news",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js",
-    "seeds": "node seeds/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessangarcia/just-tech-news.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^4.0.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "sequelize": "^5.21.5"
+  "bugs": {
+    "url": "https://github.com/jessangarcia/just-tech-news/issues"
   },
-  "devDependencies": {
-    "jest": "^25.1.0"
+  "homepage": "https://github.com/jessangarcia/just-tech-news#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.8.0"
   }
 }
